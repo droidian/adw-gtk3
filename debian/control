@@ -1,0 +1,19 @@
+Source: adw-gtk3
+Section: gnome
+Priority: optional
+Maintainer: Erik Inkinen <erik.inkinen@erikinkinen.fi>
+Rules-Requires-Root: no
+Build-Depends:
+ meson,
+ sassc,
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://github.com/lassekongo83/adw-gtk3
+
+Package: adw-gtk3
+Architecture: all
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: adw-gtk3 GTK3 theme
+ adw-gtk3 is a port of libadwaita theme for GTK3.
